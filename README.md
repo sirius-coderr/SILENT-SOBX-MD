@@ -146,7 +146,7 @@ href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
 ----------
 
 <p align="center">
-<a href='https://silent-sobx-md-pair4-fe7ddcd8b190.herokuapp.com/' target="_blank">
+<a href='https://pair-bfou.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Session%20id=1-FF0000?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
  
@@ -155,7 +155,7 @@ href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
 ----------
 
 <p align="center">
-<a href= 'https://silent-web-par-mega-2a6de3179f74.herokuapp.com/' target="_blank">
+<a href= 'https://pair-bfou.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Session%20id=2-0000FF?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
  
@@ -169,7 +169,7 @@ href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
 
 ------------
  
-<a href="http://urly.fi/3Kkn" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="DEPLOY BOT" height="90" width="280" /></a>
+<a href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="DEPLOY BOT" height="90" width="280" /></a>
 
 ----------
 
