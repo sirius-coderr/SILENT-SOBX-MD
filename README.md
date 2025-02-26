@@ -2,6 +2,16 @@
   </p>
 
 `© NEW REPOSITORY SILENT-SOBX-MD💛`
+--------------------------
+- **ANTI-DELETED 🚀**
+- **ANTI-VIEWONCE 🚀**
+- **AUTO-UPDATE 🚀**
+- **AUTO_VOICE 🚀**
+- **AUTO_STICKER 🚀**
+- **AUTO_REPLY 🚀**
+- **ALWAYS_ONLINE_OFFLINE 🚀**
+- **STATUS_REPLY_REACT 🚀**
+- © ***POWERD BY SILENTLOVER432***
 
 ---------
 
@@ -19,7 +29,7 @@
 ------------
 
 <img align="center" height="auto"
-src="https://cardivo.vercel.app/api?name=SILENT-SOBX-MD_V3&description=🥂❤️🔐THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20SILENT%20LOVER%20432%20KING%20OF%20KINGS%20OWNER%20SILENT%20LOVER%20AND%20SOBIA%20BUTT%20MANGER%20AND%20BUG%20FINDER%20DARKDEVIL⁷¹⁹🖤🔥💀&image=https://i.ibb.co/QvGkkd0/Manul-Ofc-X.jpg?v=4&backgroundColor=%23ecf0f1&github=SILENTLOVER40&pattern=leaf&colorPattern=%23eaeaea"/>
+src="https://cardivo.vercel.app/api?name=SILENT-SOBX-MD🚀&description=🥂❤️🔐THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20SILENT%20LOVER%20432%20KING%20OF%20KINGS%20OWNER%20SILENT%20LOVER%20AND%20SOBIA%20BUTT%20MANGER%20AND%20BUG%20FINDER%20DARKDEVIL⁷¹⁹🖤🔥💀&image=https://i.ibb.co/QvGkkd0/Manul-Ofc-X.jpg?v=4&backgroundColor=%23ecf0f1&github=SILENTLOVER40&pattern=leaf&colorPattern=%23eaeaea"/>
 
 <br>
 
@@ -32,15 +42,17 @@ src="https://cardivo.vercel.app/api?name=SILENT-SOBX-MD_V3&description=🥂❤�
 </p>
   <p align="center">
    <!-- Repo Views -->
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSILENTLOVER40%2FSILENT-SOBX-MD_V3&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Repo Views Badge">
- <a href="https://github.com/SILENTLOVER40?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/SILENTLOVER40?label=Followers&style=social"></a>
-<a href="https://github.com/SILENTLOVER40/SILENT-SOBX-MD_V3/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/SILENTLOVER40/SILENT-SOBX-MD_V3?&style=social"></a>
-<a href="https://github.com/SILENTLOVER40/SILENT-SOBX-MD_V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SILENTLOVER40/SILENT-SOBX-MD_V3?style=social"></a>
-<a href="https://github.com/SILENTLOVER40/SILENT-SOBX-MD_V3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SILENTLOVER40/SILENT-SOBX-MD_V3?label=Watching&style=social"></a>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSILENTLOVER0432%2FSILENT-SOBX-MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Repo Views Badge">
+ <a href="https://github.com/SILENTLOVER0432?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/SILENTLOVER0432?label=Followers&style=social"></a>
+<a href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/SILENTLOVER0432/SILENT-SOBX-MD?&style=social"></a>
+<a
+href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SILENTLOVER0432/SILENT-SOBX-MD?style=social"></a>
+<a href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SILENTLOVER0432/SILENT-SOBX-MD?label=Watching&style=social"></a>
 <!-- Repo Size -->
-  <img src="https://img.shields.io/github/repo-size/SILENTLOVER40/SILENT-SOBX-MD_V3?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/SILENTLOVER0432/SILENT-SOBX-MD?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
   <!-- Developer -->
-  <img src="https://img.shields.io/static/v1?label=OWNER&message=SILENT%20LOVER&color=pink&style=plastic" alt="Developer Badge">
+  <img src="https://img.shields.io/static/v1?label=OWNER&message=SILENT%20LOVER432&color=pink&style=plastic" alt="Developer Badge">
+                  
 </p>
 
 -----------
@@ -298,7 +310,7 @@ jobs:
 
 ------------
 
-![license](https://img.shields.io/github/license/SILENTLOVER40/SILENT-SOBX-MD_V3?color=green&label=License&style=plastic)
+![license](https://img.shields.io/github/license/SILENTLOVER0432/SILENT-SOBX-MD?color=green&label=License&style=plastic)
 
 ----------
 
