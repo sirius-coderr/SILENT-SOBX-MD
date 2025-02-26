@@ -59,7 +59,10 @@ href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/network/members"><img ti
 -----------
 ----------
 
-<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>SILENT-SOBX-MD-V3</div>
+<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" />
+  
+`© CREATED BY SILENTLOVER432`
+-
 
 ------------
 
