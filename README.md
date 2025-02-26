@@ -75,16 +75,16 @@ href="https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/network/members"><img ti
 
 ----------------
 
-![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSILENTLOVER40%2FSILENT-SOBX-MD_V3&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
+![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSILENTLOVER0432%2FSILENT-SOBX-MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
 
 
-![forks](https://img.shields.io/github/forks/SILENTLOVER40/SILENT-SOBX-MD_V3?label=Forks&style=social)
+![forks](https://img.shields.io/github/forks/SILENTLOVER0432/SILENT-SOBX-MD?label=Forks&style=social)
 
 
-![stars](https://img.shields.io/github/stars/SILENTLOVER40/SILENT-SOBX-MD_V3?style=social)
+![stars](https://img.shields.io/github/stars/SILENTLOVER0432/SILENT-SOBX-MD?style=social)
 
 
-[![FORK SILENT-SOBX-MD](https://img.shields.io/badge/FORK%20-SILENT%20SOBX%20MD-white)](https://github.com/SILENTLOVER40/SILENT-SOBX-MD_V3/fork)
+[![FORK SILENT-SOBX-MD](https://img.shields.io/badge/FORK%20-SILENT%20SOBX%20MD-white)](https://github.com/SILENTLOVER0432/SILENT-SOBX-MD/fork)
 
 `⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛`
 
@@ -195,7 +195,7 @@ href="https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7" target="_blank">
 
 -------------
 
-<p align="left"><a href="https://repl.it/github/SILENTLOVER40/SILENT-SOBX-MD_V3"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<p align="left"><a href="https://repl.it/github/SILENTLOVER0432/SILENT-SOBX-MD"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 --------------
 
