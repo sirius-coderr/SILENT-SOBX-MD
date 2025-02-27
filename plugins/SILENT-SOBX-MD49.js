@@ -50,8 +50,8 @@ cmd({
 
 
 cmd({
-    pattern: "insta2",
-    alias: ["igdl2", "reel2", "ig2", "instadl2"],
+    pattern: "insta3",
+    alias: ["igdl3", "reel3", "ig3", "instadl3"],
     desc: "Download Instagram reels or image posts",
     category: "downloader",
     react: "⏳",
@@ -101,3 +101,45 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
         reply(`An error occurred: ${e.message}`);
     }
 });
+
+
+cmd({
+    pattern: "tiktok",
+    alias: ["ttdl", "tt", "tiktokdl"],
+    desc: "Download TikTok video without watermark",
+    category: "downloader",
+    react: "🎵",
+    filename: __filename
+},
+async (conn, mek, m, { from, args, q, reply }) => {
+    try {
+        if (!q) return reply("Please provide a TikTok video link.");
+        if (!q.includes("tiktok.com")) return reply("Invalid TikTok link.");
+        
+        reply("*_SILENT-SOBX-MD DOWNLOADING TIKTOK VIDEO , PLEASE WAIT...🚀_*");
+        
+        const apiUrl = `https://delirius-apiofc.vercel.app/download/tiktok?url=${q}`;
+        const { data } = await axios.get(apiUrl);
+        
+        if (!data.status || !data.data) return reply("Failed to fetch TikTok video.");
+        
+        const { title, like, comment, share, author, meta } = data.data;
+        const videoUrl = meta.media.find(v => v.type === "video").org;
+        
+        const caption = `🎵 *SILENT-SOBX-MD TIKTOK VIDEO* 🎵\n\n` +
+                        `👤 *USER:* ${author.nickname} (@${author.username})\n` +
+                        `📖 *TITLE:* ${title}\n` +
+                        `👍 *LIKES:* ${like}\n💬 *COMMENTS:* ${comment}\n🔁 *SHARES:* ${share}\n\n> © POWERED BY SILENTLOVER432 ♥️`;
+        
+        await conn.sendMessage(from, {
+            video: { url: videoUrl },
+            caption: caption,
+            contextInfo: { mentionedJid: [m.sender] }
+        }, { quoted: mek });
+        
+    } catch (e) {
+        console.error("Error in TikTok downloader command:", e);
+        reply(`An error occurred: ${e.message}`);
+    }
+});
+          
