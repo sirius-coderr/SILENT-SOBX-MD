@@ -9,11 +9,11 @@ cmd({
     category: "utility",
     filename: __filename
 }, async (conn, mek, m, {
-    from, body, command, args, senderNumber, reply
+    from, body, command, args, isOwner, senderNumber, reply
 }) => {
     try {
         const botOwner = conn.user.id.split(":")[0]; // Extract the bot owner's number
-        if (senderNumber !== botOwner) {
+        if (!isOwner) {
             return reply("*_Only the bot owner can use this command.🚀_*");
         }
         
