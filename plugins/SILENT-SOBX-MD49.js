@@ -31,7 +31,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: videoData.url },
-      caption: `📥 *SILENT-SOBX-MD FB DOWNLOAD*\n*${videoData.quality} Quality*\n\n🔗 *POWERED BY SILENTLOVER432*`
+      caption: `📥 *SILENT-SOBX-MD FB DOWNLOADER*\n\n*QUAILTY${videoData.quality}*\n\n🔗 *POWERED BY SILENTLOVER432*`
     }, { quoted: m });
 
   } catch (error) {
