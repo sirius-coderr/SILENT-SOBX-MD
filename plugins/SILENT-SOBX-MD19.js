@@ -57,7 +57,7 @@ cmd({
       return reply("```✅ SILENT-SOBX-MD IS ALREADY UP-TO-DATE 🌐```\n");  
     }  
 
-    await reply("```SILENT-SOBX-MD UPDATING...🚀```\n");  
+    await reply("```SILENT-SOBX-MD SUCCESSFUL UPDATE ENOJY LATEST VERSION...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
