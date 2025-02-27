@@ -147,8 +147,8 @@ cmd({
   }
 });
 cmd({
-  'pattern': 'fb3',
-  'alias': ["facebook3"],
+  'pattern': 'fb4',
+  'alias': ["facebook4"],
   'desc': "Download Facebook videos",
   'category': "download",
   'filename': __filename
@@ -489,7 +489,7 @@ cmd({
 });
 cmd({
   'pattern': 'ig',
-  'alias': ["insta","fb2","facebook"],
+  'alias': ["insta","fb3","facebook3"],
   'desc': "To download instagram videos.",
   'react': '🎥',
   'category': "download",
