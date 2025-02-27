@@ -38,7 +38,7 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 CHECKING UPDATE FOR SILENT-SOBX-MD 💨```\n");  
+    await reply("```🔍 CHECKING UPDATE AND UPLOADING FILES FOR SILENT-SOBX-MD 💨```\n");  
       
     // Get latest commit from GitHub  
     const { data: commitData } = await axios.get("https://api.github.com/repos/SILENTLOVER0432/SILENT-SOBX-MD/commits/main");  
@@ -57,7 +57,7 @@ cmd({
       return reply("```✅ SILENT-SOBX-MD IS ALREADY UP-TO-DATE 🌐```\n");  
     }  
 
-    await reply("```SILENT-SOBX-MD SUCCESSFUL UPDATE ENOJY LATEST VERSION...🚀```\n");  
+    await reply("```SILENT-SOBX-MD SUCCESSFULLY UPDATE ENOJY LATEST VERSION...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
