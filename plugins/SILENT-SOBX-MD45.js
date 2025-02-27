@@ -64,14 +64,19 @@ cmd({
 ┇๏ *Link* -  ${yts.url}
 ╰━━❑
 
-  > © ᴘᴏᴡᴇʀᴇᴅ ʙʏʙsɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏʙsɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²`;
 
         // Send video details
         await conn.sendMessage(from, { image: { url: data.result.thumbnail || '' }, caption: ytmsg }, { quoted: mek });
         
         // Send video file
-        await conn.sendMessage(from, { video: { url: data.result.download_url }, mimetype: "video/mp4" }, { quoted: mek });
-        
+await conn.sendMessage(from, { 
+  video: { 
+    url: data.result.download_url 
+  }, 
+  mimetype: "video/mp4", 
+  caption: `> © POWERED BY SILENTLOVER432` 
+}, { quoted: mek });
         // Send document file (optional)
         await conn.sendMessage(from, { 
             document: { url: data.result.download_url }, 
@@ -89,8 +94,8 @@ cmd({
 // play
 
 cmd({ 
-     pattern: "play", 
-     alias: ["song", "yta"], 
+     pattern: "playextra", 
+     alias: ["songextra", "ytaextra"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
