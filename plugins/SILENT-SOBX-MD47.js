@@ -125,10 +125,11 @@ cmd({
         
         // Prepare the caption
         const desc = `
-        *SILENT-SOBX-MD PINS DOWNLOADER🚀*
-╭━━❐━⪼
+*❐ SILENT-SOBX-MD PINS DOWNLOADER🚀*
+╭━━❐
 ┇๏ *ABOUT* - ${response.data.owner}
-╰━━❑━⪼
+╰━━❑
+
 > *© Pᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³² ♡*`;
 
         // Check if there are any media items
@@ -155,4 +156,112 @@ cmd({
         await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });
         reply('❎ An error occurred while processing your request.');
     }
+});
+cmd({
+  pattern: "tiktokstalk",
+  alias: ["tstalk", "ttstalk"],
+  react: "📱",
+  desc: "Fetch TikTok user profile details.",
+  category: "search",
+  filename: __filename
+}, async (conn, m, store, { from, args, q, reply }) => {
+  try {
+    if (!q) {
+      return reply("❎ Please provide a TikTok username.\n\n*Example:* .tiktokstalk mrbeast");
+    }
+
+    const apiUrl = `https://api.siputzx.my.id/api/stalk/tiktok?username=${encodeURIComponent(q)}`;
+    const { data } = await axios.get(apiUrl);
+
+    if (!data.status) {
+      return reply("❌ User not found. Please check the username and try again.");
+    }
+
+    const user = data.data.user;
+    const stats = data.data.stats;
+
+    const profileInfo = `🎭 *SILENT-SOBX-MD TIKTOK PROFILE STALKER* 🎭
+
+👤 *Username:* @${user.uniqueId}
+📛 *Nickname:* ${user.nickname}
+✅ *Verified:* ${user.verified ? "Yes ✅" : "No ❌"}
+📍 *Region:* ${user.region}
+📝 *Bio:* ${user.signature || "No bio available."}
+🔗 *Bio Link:* ${user.bioLink?.link || "No link available."}
+
+📊 *Statistics:*
+👥 *Followers:* ${stats.followerCount.toLocaleString()}
+👤 *Following:* ${stats.followingCount.toLocaleString()}
+❤️ *Likes:* ${stats.heartCount.toLocaleString()}
+🎥 *Videos:* ${stats.videoCount.toLocaleString()}
+
+📅 *Account Created:* ${new Date(user.createTime * 1000).toLocaleDateString()}
+🔒 *Private Account:* ${user.privateAccount ? "Yes 🔒" : "No 🌍"}
+
+🔗 *Profile URL:* https://www.tiktok.com/@${user.uniqueId}
+
+> BY SILENTLOVER432 ♥️
+`;
+
+    const profileImage = { image: { url: user.avatarLarger }, caption: profileInfo };
+
+    await conn.sendMessage(from, profileImage, { quoted: m });
+  } catch (error) {
+    console.error("❌ Error in TikTok stalk command:", error);
+    reply("⚠️ An error occurred while fetching TikTok profile data.");
+  }
+});
+
+
+
+cmd({
+  pattern: "spotifysearch",
+  alias: ["spotifysrch", "spsearch"],
+  desc: "Search for Spotify tracks using a query.",
+  react: '✅',
+  category: 'tools',
+  filename: __filename
+}, async (conn, m, store, {
+  from,
+  args,
+  reply
+}) => {
+  if (!args[0]) {
+    return reply("🌸 What do you want to search on Spotify?\n\n*Usage Example:*\n.spotifysearch <query>");
+  }
+
+  const query = args.join(" ");
+  await store.react('⌛');
+
+  try {
+    reply(`🔎 Searching Spotify for: *${query}*`);
+    
+    const response = await fetch(`https://api.diioffc.web.id/api/search/spotify?query=${encodeURIComponent(query)}`);
+    const data = await response.json();
+
+    if (!data || !data.status || !data.result || data.result.length === 0) {
+      await store.react('❌');
+      return reply("❌ No results found for your query. Please try with a different keyword.");
+    }
+
+    // Get up to 7 random results
+    const results = data.result.slice(0, 7).sort(() => Math.random() - 0.5);
+
+    for (const track of results) {
+      const message = `🎶 *SILENT-SOBX-MD SPOTIFY TRACK RESULT..🚀*:\n\n`
+        + `*• TRACK NAME*: ${track.trackName}\n`
+        + `*• ARTIST*: ${track.artistName}\n`
+        + `*• TRACK NUMBER*: ${track.trackNumber}\n`
+        + `*• URL*: ${track.externalUrl}\n\n`
+        + `*POWERD BY SILENTLOVER432\n\n`;
+
+      reply(message);
+    }
+
+    await store.react('✅');
+  } catch (error) {
+    console.error("Error in SpotifySearch command:", error);
+    await store.react('❌');
+    reply("❌ An error occurred while searching Spotify. Please try again later.");
+  }
 });
