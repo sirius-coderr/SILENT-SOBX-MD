@@ -94,12 +94,12 @@ await conn.sendMessage(from, {
 // play
 
 cmd({ 
-     pattern: "playextra", 
-     alias: ["songextra", "ytaextra"], 
+     pattern: "play2", 
+     alias: ["song2", "yta2"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
-     use: '.song < Yt url or Name >', 
+     use: '.song2 < Yt url or Name >', 
      filename: __filename }, 
      async (conn, mek, m, { from, prefix, quoted, q, reply }) => 
      
