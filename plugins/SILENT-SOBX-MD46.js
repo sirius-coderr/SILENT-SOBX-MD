@@ -31,7 +31,7 @@ cmd({
         reportedMessages[messageId] = true;
 
         const reportText = `*| REQUEST/BUG |*\n\n*User*: @${m.sender.split("@")[0]}\n*Request/Bug*: ${args.join(" ")}`;
-        const confirmationText = `*_HI ${m.pushName}, YOUR REQUEST HAS BEEN FORWARDED TO THE OWNER. PLEASE WAIT FOR RESPONSE...🚀_*`;
+        const confirmationText = `*_HI ${m.pushName}, YOUR REQUEST HAS BEEN FORWARDED TO THE OWNER SILENTLOVER432. PLEASE WAIT FOR RESPONSE...🚀_*`;
 
         await conn.sendMessage(`${devNumber}@s.whatsapp.net`, {
             text: reportText,
