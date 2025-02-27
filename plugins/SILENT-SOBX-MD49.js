@@ -47,3 +47,57 @@ cmd({
     reply("❌ *Error:* Unable to process the request. Please try again later.");
   }
 });
+
+
+cmd({
+    pattern: "insta2",
+    alias: ["igdl2", "reel2", "ig2", "instadl2"],
+    desc: "Download Instagram reels or image posts",
+    category: "downloader",
+    react: "⏳",
+    filename: __filename
+},
+async (conn, mek, m, { from, args, q, reply, react }) => {
+    try {
+        if (!q) return reply("Please provide an Instagram post or reel link.");
+        if (!q.includes("instagram.com")) return reply("Invalid Instagram link.");
+
+        const apiUrl = `https://delirius-apiofc.vercel.app/download/igv2?url=${q}`;
+        const { data } = await axios.get(apiUrl);
+
+        if (!data.status || !data.data) {
+            await react("❌"); 
+            return reply("Failed to fetch Instagram media.");
+        }
+
+        const { username, fullname, caption, likes, comments, followed, download } = data.data;
+
+        const captionText = `*SILENT-SOBX-MD IG DOWNLOADER🚀*` +
+                            `📸 *Instagram Post* 📸\n\n` +
+                            `👤 *User:* ${fullname} (@${username})\n` +
+                            `❤️ *Likes:* ${likes}\n💬 *Comments:* ${comments}\n👥 *Followers:* ${followed}\n` +
+                            `📝 *Caption:*\n${caption || "THE SILENT-SOBX-MD API."}`;
+
+        for (const media of download) {
+            if (media.type === "image") {
+                await conn.sendMessage(from, {
+                    image: { url: media.url },
+                    caption: captionText,
+                    contextInfo: { mentionedJid: [m.sender] }
+                }, { quoted: mek });
+            } else if (media.type === "video") {
+                await conn.sendMessage(from, {
+                    video: { url: media.url },
+                    caption: captionText,
+                    contextInfo: { mentionedJid: [m.sender] }
+                }, { quoted: mek });
+            }
+        }
+
+        await react("✅"); // React after successfully sending media
+    } catch (e) {
+        console.error("Error in Instagram downloader command:", e);
+        await react("❌");
+        reply(`An error occurred: ${e.message}`);
+    }
+});
