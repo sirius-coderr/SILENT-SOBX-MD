@@ -44,6 +44,8 @@ contact me 923096287432 ♻️
 const config = require('../config')
 const {cmd , commands} = require('../command')
 const os = require("os")
+const fs = require('fs');
+const path = require('path');
 const {runtime} = require('../lib/functions')
 const axios = require('axios')
 const {sleep} = require('../lib/functions')
@@ -232,7 +234,7 @@ USE *.UPDATE* TO UPDATE YOUR BOT.`;
     }, { quoted: mek });
   } catch (error) {
     console.error('Error fetching version info:', error);
-    reply('❌ An error occurred while checking the bot version.');
+    reply('❌ An error occurred while checking the bot system.');
   }
 });
 
