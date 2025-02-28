@@ -127,7 +127,7 @@ console.log("SESSION DOWNLOADED SUCCESSFULLY ✅")
 *╰┈───────────────•*
 *[ •  B O T  - R E P O ‎ • ]*
 *╭┈───────────────•*
-*│✫➠ - 🌐URL:* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD-V2*
+*│✫➠ - 🌐URL:* *https://github.com/SILENTLOVER0432/SILENT-SOBX-MD*
 *╰┈───────────────•*
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
 
@@ -135,7 +135,18 @@ console.log("SESSION DOWNLOADED SUCCESSFULLY ✅")
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
 *•────────────•⟢*
 `;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg` }, caption: up })
+conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg` }, caption: up,
+  contextInfo: {
+
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363189714152560@newsletter',
+                    newsletterName: 'sιℓεηт-sσвx-м∂',
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: mek });
 
 }
 })
