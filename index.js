@@ -135,18 +135,15 @@ console.log("SESSION DOWNLOADED SUCCESSFULLY ✅")
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
 *•────────────•⟢*
 `;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg` }, caption: up,
+conn.sendMessage(conn.user.id, { 
+  image: { 
+    url: `https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg` 
+  }, 
+  caption: up,
   contextInfo: {
-
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363189714152560@newsletter',
-                    newsletterName: 'sιℓεηт-sσвx-м∂',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
+    mentionedJid: ['120363189714152560@newsletter']
+  }
+})
 
 }
 })
