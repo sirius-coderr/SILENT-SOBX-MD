@@ -4,9 +4,9 @@ const axios = require("axios");
 
 cmd(
     {
-        pattern: "cry",
+        pattern: "roo",
         desc: "Send a crying reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😢",
         filename: __filename,
         use: "@tag (optional)",
@@ -21,8 +21,8 @@ cmd(
                 ? `${sender} is crying over @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is crying!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/cry";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -46,7 +46,7 @@ cmd(
     {
         pattern: "cuddle",
         desc: "Send a cuddle reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🤗",
         filename: __filename,
         use: "@tag (optional)",
@@ -61,8 +61,8 @@ cmd(
                 ? `${sender} cuddled @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is cuddling everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/cuddle";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -86,7 +86,7 @@ cmd(
     {
         pattern: "bully",
         desc: "Send a bully reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😈",
         filename: __filename,
         use: "@tag (optional)",
@@ -101,8 +101,8 @@ cmd(
                 ? `${sender} is bullying @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is bullying everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/bully";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -126,7 +126,7 @@ cmd(
     {
         pattern: "hug",
         desc: "Send a hug reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🤗",
         filename: __filename,
         use: "@tag (optional)",
@@ -141,7 +141,8 @@ cmd(
                 ? `${sender} hugged @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is hugging everyone!`
-                : `> © Powered By JawadTechX 🖤`;
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
 
             const apiUrl = "https://api.waifu.pics/sfw/hug";
             let res = await axios.get(apiUrl);
@@ -167,7 +168,7 @@ cmd(
     {
         pattern: "awoo",
         desc: "Send an awoo reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🐺",
         filename: __filename,
         use: "@tag (optional)",
@@ -182,8 +183,8 @@ cmd(
                 ? `${sender} awoos at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is awooing everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/awoo";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -207,7 +208,7 @@ cmd(
     {
         pattern: "lick",
         desc: "Send a lick reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "👅",
         filename: __filename,
         use: "@tag (optional)",
@@ -242,7 +243,7 @@ cmd(
     {
         pattern: "pat",
         desc: "Send a pat reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🫂",
         filename: __filename,
         use: "@tag (optional)",
@@ -257,7 +258,8 @@ cmd(
                 ? `${sender} patted @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is patting everyone!`
-                : `> © Powered By JawadTechX 🖤`;
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
 
             const apiUrl = "https://api.waifu.pics/sfw/pat";
             let res = await axios.get(apiUrl);
@@ -282,7 +284,7 @@ cmd(
     {
         pattern: "smug",
         desc: "Send a smug reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😏",
         filename: __filename,
         use: "@tag (optional)",
@@ -297,7 +299,8 @@ cmd(
                 ? `${sender} is smug at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is feeling smug!`
-                : `> © Powered By JawadTechX 🖤`;
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
 
             const apiUrl = "https://api.waifu.pics/sfw/smug";
             let res = await axios.get(apiUrl);
@@ -322,7 +325,7 @@ cmd(
     {
         pattern: "bonk",
         desc: "Send a bonk reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🔨",
         filename: __filename,
         use: "@tag (optional)",
@@ -337,8 +340,8 @@ cmd(
                 ? `${sender} bonked @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is bonking everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/bonk";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -363,7 +366,7 @@ cmd(
     {
         pattern: "yeet",
         desc: "Send a yeet reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "💨",
         filename: __filename,
         use: "@tag (optional)",
@@ -378,8 +381,8 @@ cmd(
                 ? `${sender} yeeted @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is yeeting everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/yeet";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -403,7 +406,7 @@ cmd(
     {
         pattern: "blush",
         desc: "Send a blush reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😊",
         filename: __filename,
         use: "@tag (optional)",
@@ -418,8 +421,8 @@ cmd(
                 ? `${sender} is blushing at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is blushing!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/blush";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -443,7 +446,7 @@ cmd(
     {
         pattern: "handhold",
         desc: "Send a hand-holding reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🤝",
         filename: __filename,
         use: "@tag (optional)",
@@ -458,8 +461,8 @@ cmd(
                 ? `${sender} is holding hands with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} wants to hold hands with everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/handhold";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -484,7 +487,7 @@ cmd(
     {
         pattern: "highfive",
         desc: "Send a high-five reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "✋",
         filename: __filename,
         use: "@tag (optional)",
@@ -499,8 +502,8 @@ cmd(
                 ? `${sender} gave a high-five to @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is high-fiving everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/highfive";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -524,7 +527,7 @@ cmd(
     {
         pattern: "nom",
         desc: "Send a nom reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🍽️",
         filename: __filename,
         use: "@tag (optional)",
@@ -539,8 +542,8 @@ cmd(
                 ? `${sender} is nomming @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is nomming everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/nom";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -564,7 +567,7 @@ cmd(
     {
         pattern: "wave",
         desc: "Send a wave reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "👋",
         filename: __filename,
         use: "@tag (optional)",
@@ -579,8 +582,8 @@ cmd(
                 ? `${sender} waved at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is waving at everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/wave";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -604,7 +607,7 @@ cmd(
     {
         pattern: "smile",
         desc: "Send a smile reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😁",
         filename: __filename,
         use: "@tag (optional)",
@@ -619,8 +622,8 @@ cmd(
                 ? `${sender} smiled at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is smiling at everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/smile";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -644,7 +647,7 @@ cmd(
     {
         pattern: "wink",
         desc: "Send a wink reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😉",
         filename: __filename,
         use: "@tag (optional)",
@@ -659,8 +662,8 @@ cmd(
                 ? `${sender} winked at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is winking at everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/wink";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -684,7 +687,7 @@ cmd(
     {
         pattern: "happy",
         desc: "Send a happy reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😊",
         filename: __filename,
         use: "@tag (optional)",
@@ -699,8 +702,8 @@ cmd(
                 ? `${sender} is happy with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is happy with everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+          
             const apiUrl = "https://api.waifu.pics/sfw/happy";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -724,7 +727,7 @@ cmd(
     {
         pattern: "glomp",
         desc: "Send a glomp reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🤗",
         filename: __filename,
         use: "@tag (optional)",
@@ -739,7 +742,7 @@ cmd(
                 ? `${sender} glomped @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is glomping everyone!`
-                : `> © Powered By JawadTechX 🖤`;
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/glomp";
             let res = await axios.get(apiUrl);
@@ -764,7 +767,7 @@ cmd(
     {
         pattern: "bite",
         desc: "Send a bite reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🦷",
         filename: __filename,
         use: "@tag (optional)",
@@ -779,8 +782,8 @@ cmd(
                 ? `${sender} bit @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is biting everyone!`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+            
             const apiUrl = "https://api.waifu.pics/sfw/bite";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -804,7 +807,7 @@ cmd(
     {
         pattern: "poke",
         desc: "Send a poke reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "👉",
         filename: __filename,
         use: "@tag (optional)",
@@ -819,8 +822,8 @@ cmd(
                 ? `${sender} poked @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} poked everyone`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+            
             const apiUrl = "https://api.waifu.pics/sfw/poke";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -845,7 +848,7 @@ cmd(
     {
         pattern: "cringe",
         desc: "Send a cringe reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "😬",
         filename: __filename,
         use: "@tag (optional)",
@@ -860,7 +863,8 @@ cmd(
                 ? `${sender} thinks @${mentionedUser.split("@")[0]} is cringe`
                 : isGroup
                 ? `${sender} finds everyone cringe`
-                : `> © Powered By JawadTechX 🖤`;
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+            
 
             const apiUrl = "https://api.waifu.pics/sfw/cringe";
             let res = await axios.get(apiUrl);
@@ -886,7 +890,7 @@ cmd(
     {
         pattern: "dance",
         desc: "Send a dance reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "💃",
         filename: __filename,
         use: "@tag (optional)",
@@ -901,8 +905,8 @@ cmd(
                 ? `${sender} danced with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is dancing with everyone`
-                : `> © Powered By JawadTechX 🖤`;
-
+                : `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
+            
             const apiUrl = "https://api.waifu.pics/sfw/dance";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -928,7 +932,7 @@ cmd(
     {
         pattern: "kill",
         desc: "Send a kill reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "🔪",
         filename: __filename,
         use: "@tag (optional)",
@@ -946,9 +950,8 @@ cmd(
             } else if (isGroup) {
                 message = `${sender} killed everyone`;
             } else {
-                message = `> © Powered By JawadTechX 🖤`;
+                message = `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
             }
-
             const apiUrl = "https://api.waifu.pics/sfw/kill";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -972,7 +975,7 @@ cmd(
     {
         pattern: "slap",
         desc: "Send a slap reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "✊",
         filename: __filename,
         use: "@tag (optional)",
@@ -990,7 +993,7 @@ cmd(
             } else if (isGroup) {
                 message = `${sender} slapped everyone`;
             } else {
-                message = `> © Powered By Silentlover`;
+                message = `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
             }
 
             const apiUrl = "https://api.waifu.pics/sfw/slap";
@@ -1016,7 +1019,7 @@ cmd(
     {
         pattern: "kiss",
         desc: "Send a kiss reaction GIF.",
-        category: "fun",
+        category: "group",
         react: "💋",
         filename: __filename,
         use: "@tag (optional)",
@@ -1034,7 +1037,7 @@ cmd(
             } else if (isGroup) {
                 message = `${sender} kissed everyone`;
             } else {
-                message = `> © Powered By JawadTechX 🖤`;
+                message = `> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛᴠʟᴏᴠᴇʀ⁴³²`;
             }
 
             const apiUrl = "https://api.waifu.pics/sfw/kiss";
