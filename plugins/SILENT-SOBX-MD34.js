@@ -25,38 +25,49 @@ const os = require("os")
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
-    pattern: "speed",
-    react: "✨",
-    alias: ["ping2"],
-    desc: "Check bot\'s ping",
-    category: "main",
-    use: '.ping2',
-    filename: __filename
-},
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*_ZINDA HUU...🚀_*'  }, { quoted: mek } )
-var final = new Date().getTime();
-await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '> *_SILENT-SOBX-MD SPEED:_*\n> *_' + (final - inital) + ' MS...🚀_* ',
-                              contextInfo: {
-                mentionedJid: [sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363189714152560@newsletter',
-                    newsletterName: "sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ",
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-
-    } catch (e) {
-        console.error("Error in ping command:", e);
-        reply(`An error occurred: ${e.message}`);
-    }
+  pattern: "speed",
+  react: "✨",
+  alias: ["ping2"],
+  desc: "Check bot's ping",
+  category: "main",
+  use: '.ping2',
+  filename: __filename
+}, async (conn, mek, m, {
+  from,
+  l,
+  quoted,
+  body,
+  isCmd,
+  command,
+  args,
+  q,
+  isGroup,
+  sender,
+  senderNumber,
+  botNumber2,
+  botNumber,
+  pushname,
+  isMe,
+  isOwner,
+  groupMetadata,
+  groupName,
+  participants,
+  groupAdmins,
+  isBotAdmins,
+  isAdmins,
+  reply
+}) => {
+  try {
+    var inital = new Date().getTime();
+    let ping = await conn.sendMessage(from, { text: '*_ZINDA HUU...🚀_*' }, { quoted: mek });
+    var final = new Date().getTime();
+    await conn.sendMessage(from, { text: '> *_SILENT-SOBX-MD SPEED:_*\n> *_' + (final - inital) + ' MS...🚀_*', contextInfo: { mentionedJid: [sender], forwardingScore: 999, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363189714152560@newsletter', newsletterName: "sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ", serverMessageId: 143 } } }, { quoted: ping });
+  } catch (e) {
+    console.error("Error in ping command:", e);
+    reply(`An error occurred: ${e.message}`);
+  }
 });
+
 
 cmd({
     pattern: "ping",
