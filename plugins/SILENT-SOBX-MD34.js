@@ -25,9 +25,9 @@ const os = require("os")
 const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
-    pattern: "ping2",
-    react: "🤖",
-    alias: ["speed"],
+    pattern: "speed",
+    react: "✨",
+    alias: ["ping2"],
     desc: "Check bot\'s ping",
     category: "main",
     use: '.ping2',
@@ -39,7 +39,7 @@ var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '*_ZINDA HUU...🚀_*'  }, { quoted: mek } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '> *_SILENT-SOBX-MD SPEED:_*\n > *_' + (final - inital) + ' MS..🚀_* ',
+return await conn.sendMessage(from , { text: '> *_SILENT-SOBX-MD SPEED:_*\n> *_' + (final - inital) + ' MS...🚀_* ',
                               contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
