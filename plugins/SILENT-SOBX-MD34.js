@@ -39,7 +39,7 @@ var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '*_ZINDA HUU...🚀_*'  }, { quoted: mek } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '> *_SILENT-SOBX-MD SPEED:_*\n *' + (final - inital) + ' ms* ',
+return await conn.sendMessage(from , { text: '> *_SILENT-SOBX-MD SPEED:_*\n > *_' + (final - inital) + ' MS..🚀_* ',
                               contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
