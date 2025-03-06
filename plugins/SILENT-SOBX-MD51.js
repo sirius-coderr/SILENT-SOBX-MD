@@ -45,14 +45,13 @@ cmd({
       ago: "Unknown"
     };
 
-    const caption = `╭━━━〔 *SILENT-SOBX-MD YTMAX DOWNLOADEDER* 〕━━━⊷\n`
-      + `*PLAYING:🚀* ${ytData.title}\n`
-      + `🚀 *SELECT OPTION WHAT YOU WANT:*\n`
-      + `_1_  *VIDEO*\n`
-      + `_2_  *DOCUMENT*\n`
-      + `_3_  *AUDIO*\n\n`
-      + `📌 *Reply with the number to download in your choice.*`;
-
+    const caption = `*PLAYING:🚀* ${ytData.title}\n\n\n`
+      + `🚀 *SELECT OPTION WHAT YOU WANT:*\n\n\n`
+      + `*_1_*  *VIDEO*\n\n`
+      + `*_2_*  *DOCUMENT*\n\n`
+      + `*_3_*  *AUDIO*\n\n\n`
+      + `🚀 *REPLY WITH NUMBER TO DOWNLOAD*`;
+      + `> © POWERD BY SILENTLOVER432 ♥️`
     const sentMsg = await conn.sendMessage(from, {
       image: { url: ytData.thumbnail || "https://i.ibb.co/4pzL3v2/no-thumbnail.jpg" },
       caption: caption,
